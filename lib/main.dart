@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './pages/LOGINorRIGISTER.dart';
 
 void main() => runApp(
       MaterialApp(
@@ -12,27 +13,20 @@ class OpenningPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-        image: DecorationImage(
-            image: AssetImage("images/OpeningPage.jpg"), fit: BoxFit.cover),
+    return GestureDetector(
+      onTap: () {
+        Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (context) => LOGINorRIGISTER(),
+          ),
+        );
+      },
+      child: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+              image: AssetImage("images/FIRST SCREEN.jpg"), fit: BoxFit.cover),
+        ),
       ),
     );
   }
 }
-
-
-class LibraryFirstPage extends StatefulWidget {
-  const LibraryFirstPage({Key key}) : super(key: key);
-
-  @override
-  _LibraryFirstPageState createState() => _LibraryFirstPageState();
-}
-
-class _LibraryFirstPageState extends State<LibraryFirstPage> {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
-
