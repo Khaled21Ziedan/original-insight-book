@@ -1,9 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:magic_8_ball/main.dart';
-import 'LOGINPAGE.dart';
-import 'RIGISTER.dart';
-import 'LOGINorRIGISTER.dart';
+
 class RIGISTER_2 extends StatefulWidget {
   const RIGISTER_2({Key key}) : super(key: key);
 

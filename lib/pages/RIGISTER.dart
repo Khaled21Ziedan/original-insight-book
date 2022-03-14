@@ -1,10 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:magic_8_ball/main.dart';
 import 'RIGISTER_2.dart';
-
-
-
 
 class RIGISTER extends StatefulWidget {
   const RIGISTER({Key key}) : super(key: key);
