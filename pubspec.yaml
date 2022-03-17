@@ -24,8 +24,8 @@ flutter:
   assets:
   - images/
   fonts:
-      - family: Poppins
-      - fonts:
-          - asset: fonts/Poppins-italic.ttf
+     - family: Poppins
+       fonts:
+          - asset: fonts/Poppins-Medium.ttf
             style: italic
 

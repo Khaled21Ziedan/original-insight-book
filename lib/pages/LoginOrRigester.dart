@@ -1,16 +1,15 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'LOGINPAGE.dart';
-import 'RIGISTER.dart';
+import 'LoginPage.dart';
+import 'Rigester.dart';
 
-class LOGINorRIGISTER extends StatefulWidget {
-  const LOGINorRIGISTER({Key key}) : super(key: key);
+class LoginOrRigester extends StatefulWidget {
+  const LoginOrRigester({Key key}) : super(key: key);
 
   @override
-  _LOGINorRIGISTERState createState() => _LOGINorRIGISTERState();
+  _LoginOrRigesterState createState() => _LoginOrRigesterState();
 }
 
-class _LOGINorRIGISTERState extends State<LOGINorRIGISTER> {
+class _LoginOrRigesterState extends State<LoginOrRigester> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -33,7 +32,7 @@ class _LOGINorRIGISTERState extends State<LOGINorRIGISTER> {
                 onTap: () {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => LOGINPAGE(),
+                      builder: (context) => LoginPage(),
                     ),
                   );
                 },
@@ -45,7 +44,7 @@ class _LOGINorRIGISTERState extends State<LOGINorRIGISTER> {
                   child: Text(
                     "LOG IN",
                     style: TextStyle(
-                      color: Color.fromRGBO(255, 141, 1, 50),
+                      color: Color.fromRGBO(255, 141, 1, 50),fontFamily: 'Poppins'
                     ),
                   ),
                   decoration: BoxDecoration(
@@ -61,7 +60,7 @@ class _LOGINorRIGISTERState extends State<LOGINorRIGISTER> {
               GestureDetector(
                 onTap: () {
                   Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => RIGISTER()));
+                      MaterialPageRoute(builder: (context) => Rigester()));
                 },
                 child: Container(
                   alignment: Alignment.center,
@@ -70,7 +69,7 @@ class _LOGINorRIGISTERState extends State<LOGINorRIGISTER> {
                   width: 164,
                   child: Text(
                     "REGISTER",
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Colors.white , fontFamily: 'Poppins'),
                   ),
                   decoration: BoxDecoration(
                     color: Color.fromRGBO(255, 141, 1, 50),

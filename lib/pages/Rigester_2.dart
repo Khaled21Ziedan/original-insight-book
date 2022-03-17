@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class RIGISTER_2 extends StatefulWidget {
-  const RIGISTER_2({Key key}) : super(key: key);
+class Rigester_2 extends StatefulWidget {
+  const Rigester_2({Key key}) : super(key: key);
 
   @override
-  _RIGISTER_2State createState() => _RIGISTER_2State();
+  _Rigester_2State createState() => _Rigester_2State();
 }
 
-class _RIGISTER_2State extends State<RIGISTER_2> {
+class _Rigester_2State extends State<Rigester_2> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -20,8 +20,8 @@ class _RIGISTER_2State extends State<RIGISTER_2> {
               Padding(
                 padding: EdgeInsets.all(15),
                 child: Text(
-                  "REGISTER",
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50),
+                  "Register",
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50,fontFamily: 'Poppins'),
                 ),
               ),
               SizedBox(height: 100),
@@ -29,7 +29,7 @@ class _RIGISTER_2State extends State<RIGISTER_2> {
                 padding: EdgeInsets.all(15),
                 child: TextField(
                   style: TextStyle(
-                    color: Color.fromRGBO(255, 141, 1, 50),
+                    color: Color.fromRGBO(255, 141, 1, 50),fontFamily: 'Poppins'
                   ),
                   decoration: InputDecoration(
                     enabledBorder: OutlineInputBorder(
@@ -41,10 +41,10 @@ class _RIGISTER_2State extends State<RIGISTER_2> {
                     labelText: 'Username',
                     hintText: 'Enter Your Username',
                     hintStyle: TextStyle(
-                      color: Color.fromRGBO(255, 141, 1, 50),
+                      color: Color.fromRGBO(255, 141, 1, 50),fontFamily: 'Poppins'
                     ),
                     labelStyle: TextStyle(
-                      color: Color.fromRGBO(255, 141, 1, 50),
+                      color: Color.fromRGBO(255, 141, 1, 50),fontFamily: 'Poppins'
                     ),
                   ),
                 ),
@@ -58,7 +58,7 @@ class _RIGISTER_2State extends State<RIGISTER_2> {
                     width: 300,
                     child: Text(
                       "SIGN UP",
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(color: Colors.white,fontFamily: 'Poppins'),
                     ),
                     decoration: BoxDecoration(
                       color: Color.fromRGBO(255, 141, 1, 50),

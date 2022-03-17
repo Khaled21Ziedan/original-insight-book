@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class LOGINPAGE extends StatefulWidget {
-  const LOGINPAGE({Key key}) : super(key: key);
+class LoginPage extends StatefulWidget {
+  const LoginPage({Key key}) : super(key: key);
 
   @override
-  _LOGINPAGEState createState() => _LOGINPAGEState();
+  _LoginPageState createState() => _LoginPageState();
 }
 
-class _LOGINPAGEState extends State<LOGINPAGE> {
+class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -21,7 +21,7 @@ class _LOGINPAGEState extends State<LOGINPAGE> {
                 padding: EdgeInsets.all(15),
                 child: Text(
                   "LOG IN",
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50,fontFamily: 'Poppins'),
                 ),
               ),
               SizedBox(height: 100),
@@ -41,10 +41,10 @@ class _LOGINPAGEState extends State<LOGINPAGE> {
                     labelText: 'Email',
                     hintText: 'Enter Your Email',
                     hintStyle: TextStyle(
-                      color: Color.fromRGBO(255, 141, 1, 50),
+                      color: Color.fromRGBO(255, 141, 1, 50),fontFamily: 'Poppins'
                     ),
                     labelStyle: TextStyle(
-                      color: Color.fromRGBO(255, 141, 1, 50),
+                      color: Color.fromRGBO(255, 141, 1, 50),fontFamily: 'Poppins'
                     ),
                   ),
                 ),
@@ -64,10 +64,10 @@ class _LOGINPAGEState extends State<LOGINPAGE> {
                     labelText: 'Password',
                     hintText: 'Enter Password',
                     hintStyle: TextStyle(
-                      color: Color.fromRGBO(255, 141, 1, 50),
+                      color: Color.fromRGBO(255, 141, 1, 50),fontFamily: 'Poppins'
                     ),
                     labelStyle: TextStyle(
-                      color: Color.fromRGBO(255, 141, 1, 50),
+                      color: Color.fromRGBO(255, 141, 1, 50),fontFamily: 'Poppins'
                     ),
                   ),
                 ),
@@ -81,7 +81,7 @@ class _LOGINPAGEState extends State<LOGINPAGE> {
                     width: 300,
                     child: Text(
                       "LOG IN",
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(color: Colors.white,fontFamily: 'Poppins'),
                     ),
                     decoration: BoxDecoration(
                       color: Color.fromRGBO(255, 141, 1, 50),
