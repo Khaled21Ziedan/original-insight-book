@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:magic_8_ball/Customs/CustomDecorations.dart';
+import 'package:magic_8_ball/pages/Rigester_3.dart';
 
 class Rigester_2 extends StatefulWidget {
   const Rigester_2({Key key}) : super(key: key);
@@ -51,6 +53,13 @@ class _Rigester_2State extends State<Rigester_2> {
               ),
               Center(
                 child: GestureDetector(
+                  onTap: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (context) => Rigester_3(),
+                      ),
+                    );
+                  },
                   child: Container(
                     alignment: Alignment.center,
                     margin: EdgeInsets.all(5),
@@ -60,14 +69,7 @@ class _Rigester_2State extends State<Rigester_2> {
                       "SIGN UP",
                       style: TextStyle(color: Colors.white,fontFamily: 'Poppins'),
                     ),
-                    decoration: BoxDecoration(
-                      color: Color.fromRGBO(255, 141, 1, 50),
-                      borderRadius: BorderRadius.circular(10),
-                      border: Border.all(
-                        width: 1,
-                        color: Color.fromRGBO(255, 141, 1, 50),
-                      ),
-                    ),
+                    decoration: CustomDecorations().baseBackgroundDecoration(),
                   ),
                 ),
               )

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:magic_8_ball/Customs/CustomDecorations.dart';
 import 'LoginPage.dart';
 import 'Rigester.dart';
 
@@ -44,8 +45,8 @@ class _LoginOrRigesterState extends State<LoginOrRigester> {
                   child: Text(
                     "LOG IN",
                     style: TextStyle(
-                      color: Color.fromRGBO(255, 141, 1, 50),fontFamily: 'Poppins'
-                    ),
+                        color: Color.fromRGBO(255, 141, 1, 50),
+                        fontFamily: 'Poppins'),
                   ),
                   decoration: BoxDecoration(
                     color: Colors.white,
@@ -60,7 +61,10 @@ class _LoginOrRigesterState extends State<LoginOrRigester> {
               GestureDetector(
                 onTap: () {
                   Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => Rigester()));
+                    MaterialPageRoute(
+                      builder: (context) => Rigester(),
+                    ),
+                  );
                 },
                 child: Container(
                   alignment: Alignment.center,
@@ -69,16 +73,10 @@ class _LoginOrRigesterState extends State<LoginOrRigester> {
                   width: 164,
                   child: Text(
                     "REGISTER",
-                    style: TextStyle(color: Colors.white , fontFamily: 'Poppins'),
+                    style:
+                        TextStyle(color: Colors.white, fontFamily: 'Poppins'),
                   ),
-                  decoration: BoxDecoration(
-                    color: Color.fromRGBO(255, 141, 1, 50),
-                    borderRadius: BorderRadius.circular(10),
-                    border: Border.all(
-                      width: 1,
-                      color: Color.fromRGBO(255, 141, 1, 50),
-                    ),
-                  ),
+                  decoration: CustomDecorations().baseBackgroundDecoration(),
                 ),
               ),
             ],

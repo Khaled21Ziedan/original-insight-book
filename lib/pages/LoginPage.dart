@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:magic_8_ball/Customs/CustomDecorations.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key key}) : super(key: key);
@@ -21,7 +22,10 @@ class _LoginPageState extends State<LoginPage> {
                 padding: EdgeInsets.all(15),
                 child: Text(
                   "LOG IN",
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50,fontFamily: 'Poppins'),
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 50,
+                      fontFamily: 'Poppins'),
                 ),
               ),
               SizedBox(height: 100),
@@ -31,45 +35,19 @@ class _LoginPageState extends State<LoginPage> {
                   style: TextStyle(
                     color: Color.fromRGBO(255, 141, 1, 50),
                   ),
-                  decoration: InputDecoration(
-                    enabledBorder: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(10.0),
-                      borderSide: const BorderSide(
-                        color: Color.fromRGBO(255, 141, 1, 50),
-                      ),
-                    ),
-                    labelText: 'Email',
-                    hintText: 'Enter Your Email',
-                    hintStyle: TextStyle(
-                      color: Color.fromRGBO(255, 141, 1, 50),fontFamily: 'Poppins'
-                    ),
-                    labelStyle: TextStyle(
-                      color: Color.fromRGBO(255, 141, 1, 50),fontFamily: 'Poppins'
-                    ),
-                  ),
+                  decoration: CustomDecorations()
+                      .TextFieldDecoration('Email', 'Enter Your Email'),
                 ),
               ),
               Padding(
                 padding: EdgeInsets.all(15),
                 child: TextField(
-                  style: TextStyle(color: Color.fromRGBO(255, 141, 1, 50)),
-                  obscureText: true,
-                  decoration: InputDecoration(
-                    enabledBorder: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(10.0),
-                      borderSide: const BorderSide(
-                        color: Color.fromRGBO(255, 141, 1, 50),
-                      ),
-                    ),
-                    labelText: 'Password',
-                    hintText: 'Enter Password',
-                    hintStyle: TextStyle(
-                      color: Color.fromRGBO(255, 141, 1, 50),fontFamily: 'Poppins'
-                    ),
-                    labelStyle: TextStyle(
-                      color: Color.fromRGBO(255, 141, 1, 50),fontFamily: 'Poppins'
-                    ),
+                  style: TextStyle(
+                    color: Color.fromRGBO(255, 141, 1, 50),
                   ),
+                  obscureText: true,
+                  decoration: CustomDecorations()
+                      .TextFieldDecoration('Password', 'Enter Your Password'),
                 ),
               ),
               Center(
@@ -81,16 +59,10 @@ class _LoginPageState extends State<LoginPage> {
                     width: 300,
                     child: Text(
                       "LOG IN",
-                      style: TextStyle(color: Colors.white,fontFamily: 'Poppins'),
+                      style:
+                          TextStyle(color: Colors.white, fontFamily: 'Poppins'),
                     ),
-                    decoration: BoxDecoration(
-                      color: Color.fromRGBO(255, 141, 1, 50),
-                      borderRadius: BorderRadius.circular(10),
-                      border: Border.all(
-                        width: 1,
-                        color: Color.fromRGBO(255, 141, 1, 50),
-                      ),
-                    ),
+                    decoration: CustomDecorations().baseBackgroundDecoration(),
                   ),
                 ),
               )

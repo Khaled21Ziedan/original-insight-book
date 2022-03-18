@@ -28,4 +28,8 @@ flutter:
        fonts:
           - asset: fonts/Poppins-Medium.ttf
             style: italic
+     - family: Poppins-bold
+       fonts:
+          - asset: fonts/Poppins-bold.ttf
+            style: italic
 
