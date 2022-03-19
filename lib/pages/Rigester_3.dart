@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:magic_8_ball/Customs/CustomDecorations.dart';
-import 'Rigester_2.dart';
 
 class Rigester_3 extends StatefulWidget {
   const Rigester_3({Key key}) : super(key: key);
@@ -11,7 +10,6 @@ class Rigester_3 extends StatefulWidget {
 }
 
 class _Rigester_3State extends State<Rigester_3> {
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -33,7 +31,14 @@ class _Rigester_3State extends State<Rigester_3> {
               Center(
                 child: GestureDetector(
                   onTap: () {
-
+                    setState(() {
+                      $A = CustomDecorations().Filled();
+                    });
+                  },
+                  onDoubleTap: () {
+                    setState(() {
+                      $A = CustomDecorations().NUNFILLED();
+                    });
                   },
                   child: Container(
                     alignment: Alignment.center,
@@ -45,14 +50,21 @@ class _Rigester_3State extends State<Rigester_3> {
                       style:
                           TextStyle(color: Colors.black, fontFamily: 'Poppins'),
                     ),
-                    decoration: CustomDecorations().NUNFILLED(),
+                    decoration: $A,
                   ),
                 ),
               ),
               Center(
                 child: GestureDetector(
                   onTap: () {
-
+                    setState(() {
+                      $B = CustomDecorations().Filled();
+                    });
+                  },
+                  onDoubleTap: () {
+                    setState(() {
+                      $B = CustomDecorations().NUNFILLED();
+                    });
                   },
                   child: Container(
                     alignment: Alignment.center,
@@ -64,14 +76,21 @@ class _Rigester_3State extends State<Rigester_3> {
                       style:
                           TextStyle(color: Colors.black, fontFamily: 'Poppins'),
                     ),
-                    decoration: CustomDecorations().NUNFILLED(),
+                    decoration: $B,
                   ),
                 ),
               ),
               Center(
                 child: GestureDetector(
                   onTap: () {
-
+                    setState(() {
+                      $C = CustomDecorations().Filled();
+                    });
+                  },
+                  onDoubleTap: () {
+                    setState(() {
+                      $C = CustomDecorations().NUNFILLED();
+                    });
                   },
                   child: Container(
                     alignment: Alignment.center,
@@ -83,14 +102,21 @@ class _Rigester_3State extends State<Rigester_3> {
                       style:
                           TextStyle(color: Colors.black, fontFamily: 'Poppins'),
                     ),
-                    decoration: CustomDecorations().NUNFILLED(),
+                    decoration: $C,
                   ),
                 ),
               ),
               Center(
                 child: GestureDetector(
                   onTap: () {
-
+                    setState(() {
+                      $D = CustomDecorations().Filled();
+                    });
+                  },
+                  onDoubleTap: () {
+                    setState(() {
+                      $D = CustomDecorations().NUNFILLED();
+                    });
                   },
                   child: Container(
                     alignment: Alignment.center,
@@ -102,14 +128,21 @@ class _Rigester_3State extends State<Rigester_3> {
                       style:
                           TextStyle(color: Colors.black, fontFamily: 'Poppins'),
                     ),
-                    decoration: CustomDecorations().NUNFILLED(),
+                    decoration: $D,
                   ),
                 ),
               ),
               Center(
                 child: GestureDetector(
                   onTap: () {
-
+                    setState(() {
+                      $E = CustomDecorations().Filled();
+                    });
+                  },
+                  onDoubleTap: () {
+                    setState(() {
+                      $E = CustomDecorations().NUNFILLED();
+                    });
                   },
                   child: Container(
                     alignment: Alignment.center,
@@ -121,14 +154,21 @@ class _Rigester_3State extends State<Rigester_3> {
                       style:
                           TextStyle(color: Colors.black, fontFamily: 'Poppins'),
                     ),
-                    decoration: CustomDecorations().NUNFILLED(),
+                    decoration: $E,
                   ),
                 ),
               ),
               Center(
                 child: GestureDetector(
                   onTap: () {
-
+                    setState(() {
+                      $F = CustomDecorations().Filled();
+                    });
+                  },
+                  onDoubleTap: () {
+                    setState(() {
+                      $F = CustomDecorations().NUNFILLED();
+                    });
                   },
                   child: Container(
                     alignment: Alignment.center,
@@ -140,14 +180,21 @@ class _Rigester_3State extends State<Rigester_3> {
                       style:
                           TextStyle(color: Colors.black, fontFamily: 'Poppins'),
                     ),
-                    decoration: CustomDecorations().NUNFILLED(),
+                    decoration: $F,
                   ),
                 ),
               ),
               Center(
                 child: GestureDetector(
                   onTap: () {
-
+                    setState(() {
+                      $G = CustomDecorations().Filled();
+                    });
+                  },
+                  onDoubleTap: () {
+                    setState(() {
+                      $G = CustomDecorations().NUNFILLED();
+                    });
                   },
                   child: Container(
                     alignment: Alignment.center,
@@ -159,14 +206,21 @@ class _Rigester_3State extends State<Rigester_3> {
                       style:
                           TextStyle(color: Colors.black, fontFamily: 'Poppins'),
                     ),
-                    decoration: CustomDecorations().NUNFILLED(),
+                    decoration: $G,
                   ),
                 ),
               ),
               Center(
                 child: GestureDetector(
                   onTap: () {
-
+                    setState(() {
+                      $H = CustomDecorations().Filled();
+                    });
+                  },
+                  onDoubleTap: () {
+                    setState(() {
+                      $H = CustomDecorations().NUNFILLED();
+                    });
                   },
                   child: Container(
                     alignment: Alignment.center,
@@ -178,14 +232,21 @@ class _Rigester_3State extends State<Rigester_3> {
                       style:
                           TextStyle(color: Colors.black, fontFamily: 'Poppins'),
                     ),
-                    decoration: CustomDecorations().NUNFILLED(),
+                    decoration: $H,
                   ),
                 ),
               ),
               Center(
                 child: GestureDetector(
                   onTap: () {
-
+                    setState(() {
+                      $I = CustomDecorations().Filled();
+                    });
+                  },
+                  onDoubleTap: () {
+                    setState(() {
+                      $I = CustomDecorations().NUNFILLED();
+                    });
                   },
                   child: Container(
                     alignment: Alignment.center,
@@ -197,14 +258,21 @@ class _Rigester_3State extends State<Rigester_3> {
                       style:
                           TextStyle(color: Colors.black, fontFamily: 'Poppins'),
                     ),
-                    decoration: CustomDecorations().NUNFILLED(),
+                    decoration: $I,
                   ),
                 ),
               ),
               Center(
                 child: GestureDetector(
                   onTap: () {
-
+                    setState(() {
+                      $J = CustomDecorations().Filled();
+                    });
+                  },
+                  onDoubleTap: () {
+                    setState(() {
+                      $J = CustomDecorations().NUNFILLED();
+                    });
                   },
                   child: Container(
                     alignment: Alignment.center,
@@ -216,14 +284,21 @@ class _Rigester_3State extends State<Rigester_3> {
                       style:
                           TextStyle(color: Colors.black, fontFamily: 'Poppins'),
                     ),
-                    decoration: CustomDecorations().NUNFILLED(),
+                    decoration: $J,
                   ),
                 ),
               ),
               Center(
                 child: GestureDetector(
                   onTap: () {
-
+                    setState(() {
+                      $K = CustomDecorations().Filled();
+                    });
+                  },
+                  onDoubleTap: () {
+                    setState(() {
+                      $K = CustomDecorations().NUNFILLED();
+                    });
                   },
                   child: Container(
                     alignment: Alignment.center,
@@ -235,14 +310,21 @@ class _Rigester_3State extends State<Rigester_3> {
                       style:
                           TextStyle(color: Colors.black, fontFamily: 'Poppins'),
                     ),
-                    decoration: CustomDecorations().NUNFILLED(),
+                    decoration: $K,
                   ),
                 ),
               ),
               Center(
                 child: GestureDetector(
                   onTap: () {
-
+                    setState(() {
+                      $L = CustomDecorations().Filled();
+                    });
+                  },
+                  onDoubleTap: () {
+                    setState(() {
+                      $L = CustomDecorations().NUNFILLED();
+                    });
                   },
                   child: Container(
                     alignment: Alignment.center,
@@ -254,16 +336,13 @@ class _Rigester_3State extends State<Rigester_3> {
                       style:
                           TextStyle(color: Colors.black, fontFamily: 'Poppins'),
                     ),
-                    decoration: CustomDecorations().NUNFILLED(),
+                    decoration: $L,
                   ),
                 ),
               ),
               SizedBox(height: 50),
               Center(
                 child: GestureDetector(
-                  onTap: () {
-
-                  },
                   child: Container(
                     alignment: Alignment.center,
                     margin: EdgeInsets.all(5),

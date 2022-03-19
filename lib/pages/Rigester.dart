@@ -70,8 +70,7 @@ class _RigesterState extends State<Rigester> {
                         style: TextStyle(
                             color: Colors.white, fontFamily: 'Poppins'),
                       ),
-                      decoration:
-                          CustomDecorations().baseBackgroundDecoration(),
+                      decoration: $Filled,
                     ),
                   ),
                 )

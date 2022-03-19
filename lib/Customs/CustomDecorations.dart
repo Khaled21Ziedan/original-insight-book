@@ -2,8 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CustomDecorations {
-  BoxDecoration baseBackgroundDecoration() {
+  BoxDecoration Filled() {
+
     return BoxDecoration(
+
       color: Color.fromRGBO(255, 141, 1, 50),
       borderRadius: BorderRadius.circular(10),
     );
@@ -37,3 +39,21 @@ class CustomDecorations {
     );
   }
 }
+var $NotFilled = CustomDecorations().NUNFILLED();
+var $Filled = CustomDecorations().Filled();
+
+var $A = CustomDecorations().NUNFILLED();
+var $B = CustomDecorations().NUNFILLED();
+var $C = CustomDecorations().NUNFILLED();
+var $D = CustomDecorations().NUNFILLED();
+var $E = CustomDecorations().NUNFILLED();
+var $F = CustomDecorations().NUNFILLED();
+var $G = CustomDecorations().NUNFILLED();
+var $H = CustomDecorations().NUNFILLED();
+var $I = CustomDecorations().NUNFILLED();
+var $J = CustomDecorations().NUNFILLED();
+var $K = CustomDecorations().NUNFILLED();
+var $L = CustomDecorations().NUNFILLED();
+var $M = CustomDecorations().NUNFILLED();
+var $N = CustomDecorations().NUNFILLED();
+

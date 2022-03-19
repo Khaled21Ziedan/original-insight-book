@@ -76,7 +76,7 @@ class _LoginOrRigesterState extends State<LoginOrRigester> {
                     style:
                         TextStyle(color: Colors.white, fontFamily: 'Poppins'),
                   ),
-                  decoration: CustomDecorations().baseBackgroundDecoration(),
+                  decoration: $Filled,
                 ),
               ),
             ],

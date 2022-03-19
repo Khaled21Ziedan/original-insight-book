@@ -23,7 +23,10 @@ class _Rigester_2State extends State<Rigester_2> {
                 padding: EdgeInsets.all(15),
                 child: Text(
                   "Register",
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50,fontFamily: 'Poppins'),
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 50,
+                      fontFamily: 'Poppins'),
                 ),
               ),
               SizedBox(height: 100),
@@ -31,8 +34,8 @@ class _Rigester_2State extends State<Rigester_2> {
                 padding: EdgeInsets.all(15),
                 child: TextField(
                   style: TextStyle(
-                    color: Color.fromRGBO(255, 141, 1, 50),fontFamily: 'Poppins'
-                  ),
+                      color: Color.fromRGBO(255, 141, 1, 50),
+                      fontFamily: 'Poppins'),
                   decoration: InputDecoration(
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(10.0),
@@ -43,11 +46,11 @@ class _Rigester_2State extends State<Rigester_2> {
                     labelText: 'Username',
                     hintText: 'Enter Your Username',
                     hintStyle: TextStyle(
-                      color: Color.fromRGBO(255, 141, 1, 50),fontFamily: 'Poppins'
-                    ),
+                        color: Color.fromRGBO(255, 141, 1, 50),
+                        fontFamily: 'Poppins'),
                     labelStyle: TextStyle(
-                      color: Color.fromRGBO(255, 141, 1, 50),fontFamily: 'Poppins'
-                    ),
+                        color: Color.fromRGBO(255, 141, 1, 50),
+                        fontFamily: 'Poppins'),
                   ),
                 ),
               ),
@@ -67,9 +70,10 @@ class _Rigester_2State extends State<Rigester_2> {
                     width: 300,
                     child: Text(
                       "SIGN UP",
-                      style: TextStyle(color: Colors.white,fontFamily: 'Poppins'),
+                      style:
+                          TextStyle(color: Colors.white, fontFamily: 'Poppins'),
                     ),
-                    decoration: CustomDecorations().baseBackgroundDecoration(),
+                    decoration: $Filled,
                   ),
                 ),
               )

@@ -9,7 +9,6 @@ import './pages/Rigester_3.dart';
 void main() => runApp(
       MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: Rigester_3(),
+        home: OpeninngPage(),
       ),
     );
-

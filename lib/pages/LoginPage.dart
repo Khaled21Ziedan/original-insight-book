@@ -62,7 +62,7 @@ class _LoginPageState extends State<LoginPage> {
                       style:
                           TextStyle(color: Colors.white, fontFamily: 'Poppins'),
                     ),
-                    decoration: CustomDecorations().baseBackgroundDecoration(),
+                    decoration: $Filled,
                   ),
                 ),
               )
